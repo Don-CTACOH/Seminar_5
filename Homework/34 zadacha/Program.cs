@@ -32,7 +32,7 @@ int sum = 0;
 while (i < massiv.Length)
 {
     if (massiv[i] % 2 == 0)
-    sum++;
+        sum++;
     i++;
 }
 Console.Write($"Количество чётных чисел в массиве = {sum}");
